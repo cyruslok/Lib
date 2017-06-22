@@ -1,0 +1,14 @@
+#header{
+    height: 10vh;
+    width: auto;
+    background-color: black;
+}
+#content{
+    height: 85vh;
+    width: auto;
+}
+#footer{
+    height: 5vh;
+    width: auto;
+    background-color: black;
+}

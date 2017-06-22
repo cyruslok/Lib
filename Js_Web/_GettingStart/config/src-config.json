@@ -1,0 +1,16 @@
+{
+    "roots":{
+        "headers":"contents/headers/",
+        "footers":"contents/footers/",
+        "contents":"contents/"
+    },
+    "headers":{
+        "index":"index-header.html"
+    },
+    "footers":{
+        "index":"index-footer.html"
+    },
+    "contents":{
+        "index":"index-contents.html"
+    }
+}
