@@ -26,7 +26,7 @@ class Write:
         self.create.CheckDirectoryAndCreate(FloderPath)
         f = open(FloderPath+'/'+FileName, 'w').write(json.dumps(obj)) 
 
-    def SaveStringAsCsv(self, FloderPath, FileName, string):
+    def SaveStringAsFile(self, FloderPath, FileName, string):
         self.create.CheckDirectoryAndCreate(FloderPath)
         f = open(FloderPath+'/'+FileName, 'w').write(string)
     
