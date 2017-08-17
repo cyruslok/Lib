@@ -26,7 +26,7 @@ public class TocuhEventHandler : MonoBehaviour , IPointerDownHandler , IPointerU
 		if (isDetect) {
 			onObjectTime += Time.deltaTime;
 			ScreenPointCurrent = Input.mousePosition;
-			ScreePointDistance = ScreenPointStart - ScreenPointCurrent;
+			ScreePointDistance = ScreenPointCurrent - ScreenPointStart;
 			if (Vector3.Distance (ScreenPointStart, ScreenPointCurrent) > DragRange) {
 				Vector2 DistancePoint = new Vector2 (ScreePointDistance.x, ScreePointDistance.y);
 				if(OnDragEventHandler!=null) { OnDragEventHandler (DistancePoint); }
