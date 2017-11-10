@@ -13,5 +13,14 @@ class lib:
         else:
             log = 'HTTP Request Fail : {}'.format(r.status_code)
             print(log)
-            exit()
+        return result
+
+    def getRaw(self, url):
+        result = None
+        r = requests.get(url)
+        if r.status_code == 200:
+            result = r.text
+        else:
+            log = 'HTTP Request Fail : {}'.format(r.status_code)
+            print(log)
         return result
