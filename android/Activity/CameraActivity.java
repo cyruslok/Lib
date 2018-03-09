@@ -17,8 +17,6 @@ import android.widget.Toast;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import cpa.com.knac.Libs.RequestIO;
-
 public class CameraActivity extends Activity implements SurfaceHolder.Callback, android.hardware.Camera.AutoFocusCallback {
 
     private SurfaceView mCameraView;
